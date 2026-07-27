@@ -10,4 +10,3 @@ print(name_dictionary)
 name = input("Please enter your name: ")
 print ({letter.upper():name_dictionary[letter.upper()] for letter in name if letter.upper() in name_dictionary})
 
-
